@@ -1,3 +1,4 @@
+
 #include "GameManager.h"
 #include "SettingsManager.h"
 #include "Console.h"
@@ -15,7 +16,11 @@ bool GameManager::m_bInitialised = false;
 bool GameManager::m_bRunning = false;
 bool GameManager::m_bGotFocus = true;
 
-//Singleton
+
+/**
+* @brief Singleton of the game manager
+* @return GameManager*
+*/
 GameManager* GameManager::Instance()
 {
 	if (!m_pInstance)
@@ -28,7 +33,10 @@ GameManager::GameManager()
 {
 
 }
-
+/**
+* @brief Initialise the game manager
+* @return void
+*/
 void GameManager::Initialise()
 {
 	InitialiseHGE();
@@ -61,6 +69,10 @@ GameManager::~GameManager()
 	m_pHGE->Release();
 }
 
+/**
+* @brief Initialise HGE
+* @return void
+*/
 void GameManager::InitialiseHGE()
 {
 	//Create HGE
@@ -92,6 +104,10 @@ void GameManager::InitialiseHGE()
 	}
 }
 
+/**
+* @brief Start the game running
+* @return void
+*/
 void GameManager::StartGame()
 {
 	//Start HGE
@@ -99,6 +115,10 @@ void GameManager::StartGame()
 	m_pHGE->System_Start();
 }
 
+/**
+* @brief Initialise all the internal managers
+* @return void
+*/
 void GameManager::InitialiseManagers()
 {
 	m_sLastScriptLoaded = "Menu.opr";
@@ -113,6 +133,10 @@ void GameManager::InitialiseManagers()
 	Console::Instance()->Print("--- Managers Initialised --- ", DEBUG);
 }
 
+/**
+* @brief End the game
+* @return void
+*/
 void GameManager::EndGame()
 {
 	SettingsManager::SaveCVars();
@@ -120,6 +144,10 @@ void GameManager::EndGame()
 	delete m_pInstance;
 }
 
+/**
+* @brief Set the current screen resolution, based on either the Profile found or the current resolution
+* @return void
+*/
 void GameManager::SetScreenResolution()
 {
 	//Window Settings
@@ -146,6 +174,10 @@ void GameManager::SetScreenResolution()
 		m_pHGE->System_SetState(HGE_WINDOWED, true);
 }
 
+/**
+* @brief Get the current resolution for this monitor
+* @return DEVMODE
+*/
 DEVMODE GameManager::GetCurrentResolution()
 {
 	DEVMODE dm;
@@ -162,6 +194,10 @@ DEVMODE GameManager::GetCurrentResolution()
 	return dm;
 }
 
+/**
+* @brief Update handler which is called every frame by HGE 
+* @return bool
+*/
 bool GameManager::UpdateHandler()
 {
 	if (!m_bInitialised)
@@ -183,6 +219,10 @@ bool GameManager::UpdateHandler()
 	return false;
 }
 
+/**
+* @brief Render handler which is called every frame by HGE
+* @return bool
+*/
 bool GameManager::RenderHandler()
 {
 	if (!m_bInitialised || !m_bRunning)
@@ -211,12 +251,20 @@ bool GameManager::RenderHandler()
 	return false;
 }
 
+/**
+* @brief The game window has gained focus
+* @return bool
+*/
 bool GameManager::GainedFocus()
 {
 	m_bGotFocus = true;
 	return false;
 }
 
+/**
+* @brief The game window has lost focus
+* @return bool
+*/
 bool GameManager::LostFocus()
 {
 	m_bGotFocus = false;

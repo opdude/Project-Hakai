@@ -1,3 +1,8 @@
+/*!
+ * <File comment goes here!!>
+ * 
+ * Copyright (c) 200x by <your name/ organization here>
+ */
 //
 // Main.cpp
 // Project Hakai
@@ -17,6 +22,10 @@ struct MemCheck {
 	}
 };
 
+/**
+* @brief Main entry point
+* @return int WINAPI
+*/
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 {
 #if _DEBUG
