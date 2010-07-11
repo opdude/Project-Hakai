@@ -1,0 +1,15 @@
+KeyCheck
+HGE/doc/
+HGE/tutorials
+Project Hakai/Project Hakai/Debug
+Project Hakai/Debug/Debug.log
+Project Hakai/Debug/Profile.sve
+Project Hakai/Debug/config.ini
+Project Hakai/Debug/Project Hakai.lib
+Project Hakai/Debug/Project Hakai.exe
+Project Hakai/Debug/hge.log
+*.user
+*.obj
+*.exp
+*.ilk
+*.pdb

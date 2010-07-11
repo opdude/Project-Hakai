@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project Hakai", "Project Hakai\Project Hakai.vcproj", "{38A71580-7809-459B-82B1-D862B49771BD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D76A1CFF-A1EF-47EE-9845-1D9369191B61} = {D76A1CFF-A1EF-47EE-9845-1D9369191B61}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyCheck", "..\KeyCheck\KeyCheck.vcproj", "{F82A7CF3-B713-4E34-BD6A-0461CFF82D4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hgehelp", "..\HGE\src\helpers\hgehelp.vcproj", "{D76A1CFF-A1EF-47EE-9845-1D9369191B61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A71580-7809-459B-82B1-D862B49771BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{38A71580-7809-459B-82B1-D862B49771BD}.Debug|Win32.Build.0 = Debug|Win32
+		{38A71580-7809-459B-82B1-D862B49771BD}.Release|Win32.ActiveCfg = Release|Win32
+		{38A71580-7809-459B-82B1-D862B49771BD}.Release|Win32.Build.0 = Release|Win32
+		{F82A7CF3-B713-4E34-BD6A-0461CFF82D4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F82A7CF3-B713-4E34-BD6A-0461CFF82D4D}.Release|Win32.ActiveCfg = Release|Win32
+		{D76A1CFF-A1EF-47EE-9845-1D9369191B61}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D76A1CFF-A1EF-47EE-9845-1D9369191B61}.Debug|Win32.Build.0 = Debug|Win32
+		{D76A1CFF-A1EF-47EE-9845-1D9369191B61}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal
