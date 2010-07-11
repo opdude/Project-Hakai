@@ -17,7 +17,6 @@ ScreenManager::~ScreenManager()
 		RemoveScreen(m_vScreens.at(0));
 
 	delete m_pInputState;
-	delete m_fTableFont;
 }
 
 void ScreenManager::AddScreen(GameScreen *screen)
@@ -61,9 +60,9 @@ void ScreenManager::LoadContent()
 	m_fMenuFont = GameManager::Instance()->GetResourceManager()->GetFont("MenuFont");
 	m_fMonoFont = GameManager::Instance()->GetResourceManager()->GetFont("MonoFont");
 	m_fButtonFont = GameManager::Instance()->GetResourceManager()->GetFont("ButtonFont");
-	m_fTableFont = new hgeFont("Content/Fonts/monoFont.fnt",true);
+	m_fTableFont = GameManager::Instance()->GetResourceManager()->GetFont("MonoFont");
 
-	m_tBlankTex = GameManager::Instance()->GetHGE()->Texture_Load("Content/Materials/blankTexture.png");
+	m_tBlankTex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 
 	for each (GameScreen* screen in m_vScreens)
 	{

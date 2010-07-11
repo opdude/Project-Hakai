@@ -22,7 +22,7 @@ GUITable::GUITable(int _id, GameScreen* screen, vector<Column*> columns, float x
 	m_iMaximumRows = (int)(height / m_pScreen->GetScreenManager()->GetTableFont()->GetScaledHeight());
 	m_iMaximumRows--; //Remove Header Count
 
-	HTEXTURE tex = LoadTex("Content/Materials/blank.png");
+	HTEXTURE tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pTable = new hgeSprite(tex, 0,0,1,1);
 
 	Vector2 size = GetSize();

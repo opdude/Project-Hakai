@@ -1,6 +1,7 @@
 #include "Panel.h"
 #include "HelperFunctions.h"
 #include "MenuScreen.h"
+#include "GameManager.h"
 
 Panel::Panel(GameScreen* screen, float x, float y, float w, float h)
 {
@@ -9,7 +10,7 @@ Panel::Panel(GameScreen* screen, float x, float y, float w, float h)
 	m_cLine = hgeColor(ARGB(255,20,61,77));
 	m_cHighlightLine = hgeColor(ARGB(255,73,116,133));
 
-	HTEXTURE tex = LoadTex("Content/Materials/blank.png");
+	HTEXTURE tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pPanel = new hgeSprite(tex, 8,8,w,h);
 	m_pPanel->SetColor(m_cPanel.GetHWColor());
 	m_pLine = new hgeSprite(tex, 0,0,1,1);

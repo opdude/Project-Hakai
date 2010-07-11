@@ -21,7 +21,7 @@ KeyboardInputBox::KeyboardInputBox(int _id, GameScreen* screen, int maxAllowedCh
 	m_vDisabledKeys = rejectedKeys;
 	bStatic = false;
 	
-	HTEXTURE tex = LoadTex("Content/Materials/blank.png");
+	HTEXTURE tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pTextBox = new hgeSprite(tex,0,0,w,rect.y2-rect.y1);
 }
 

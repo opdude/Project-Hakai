@@ -3,6 +3,7 @@
 #include "GameScreen.h"
 #include "HelperFunctions.h"
 #include "ScreenManager.h"
+#include "GameManager.h"
 
 #define V_PAD 10
 #define H_PAD 10
@@ -32,7 +33,7 @@ Button::Button(GameScreen* screen, int _id, char* text, float x, float y, float 
 
 	rect.Set(x, y, x+w, y+h);
 
-	HTEXTURE tex = LoadTex("Content/Materials/blank.png");
+	HTEXTURE tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pButton = new hgeSprite(tex, 8,8,w,h);
 	m_pButton->SetColor(m_cButton.GetHWColor());
 	m_pLine = new hgeSprite(tex, 0,0,1,1);

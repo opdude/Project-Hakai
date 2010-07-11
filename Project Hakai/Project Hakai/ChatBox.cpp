@@ -1,6 +1,7 @@
 #include "ChatBox.h"
 #include "GameScreen.h"
 #include "ScreenManager.h"
+#include "GameManager.h"
 
 #define MAX_TEXT_LINES 50
 
@@ -17,7 +18,7 @@ ChatBox::ChatBox(int _id, GameScreen* screen, float x, float y, float w, float h
 	m_cHighlightLine = hgeColor(ARGB(255,73,116,133));
 	m_cText = hgeColor(ARGB(255,255,255,255));
 
-	HTEXTURE tex = LoadTex("Content/Materials/blank.png");
+	HTEXTURE tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pPanel = new hgeSprite(tex, 8,8,w,h);
 	m_pPanel->SetColor(m_cPanel.GetHWColor());
 	m_pLine = new hgeSprite(tex, 0,0,1,1);

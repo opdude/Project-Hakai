@@ -1,5 +1,6 @@
 #include "ListBox.h"
 #include "MenuScreen.h"
+#include "GameManager.h"
 
 ListBox::ListBox(int _id, MenuScreen* screen, hgeFont* font, float x, float y, float w, int visibleRows)
 {
@@ -41,7 +42,7 @@ ListBox::ListBox(int _id, MenuScreen* screen, hgeFont* font, float x, float y, f
 	m_fMouseX=0;
 	m_fMouseY=0;
 
-	tex = LoadTex("Content/Materials/blank.png");
+	tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pListBox = new hgeSprite(tex, 8,8,w-m_fSliderWidth,h);
 	m_pListBox->SetColor(m_cListBox.GetHWColor());
 	m_pListSide = new hgeSprite(tex, 0,0,1,1);

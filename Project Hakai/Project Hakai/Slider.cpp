@@ -1,6 +1,7 @@
 #include "Slider.h"
 #include "GameScreen.h"
 #include "HelperFunctions.h"
+#include "GameManager.h"
 
 Slider::Slider(GameScreen* screen, int _id, float x, float y, float w, float h, HTEXTURE tex, float tx, float ty, float sw, float sh, bool vertical)
 {
@@ -23,7 +24,7 @@ Slider::Slider(GameScreen* screen, int _id, float x, float y, float w, float h, 
 
 	m_pSlider=new hgeSprite(tex, tx, ty, VirtXToScr(sw), VirtYToScr(sh));
 
-	tex = LoadTex("Content/Materials/blank.png");
+	tex = GameManager::Instance()->GetResourceManager()->GetTexture("Blank");
 	m_pPanel = new hgeSprite(tex, 8,8,w,h);
 	m_pPanel->SetColor(m_cPanel.GetHWColor());
 	m_pLine = new hgeSprite(tex, 0,0,1,1);
