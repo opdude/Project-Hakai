@@ -23,7 +23,7 @@ ListBox::ListBox(int _id, MenuScreen* screen, hgeFont* font, float x, float y, f
 	HTEXTURE tex;
 
 	//Create Slider
-	tex = LoadTex("Content/Materials/Slider.png");
+	tex = GameManager::Instance()->GetResourceManager()->GetTexture("Slider");
 	m_fSliderWidth = ScrXToVirt(GetTextureSize(tex).x);
 	m_fSliderHeight = ScrYToVirt(GetTextureSize(tex).y);
 	m_pSlider=new hgeSprite(tex, 0, 0, GetTextureSize(tex).x, GetTextureSize(tex).y);

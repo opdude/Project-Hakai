@@ -10,6 +10,7 @@
 #include "Slider.h"
 #include "Panel.h"
 #include "PopupMessageBoxScreen.h"
+#include "GameManager.h"
 
 #define SCREEN_RES_LABEL	2
 #define SCREEN_RES_LIST		3
@@ -113,7 +114,7 @@ void OptionsMenuScreen::LoadContent()
 	soundText->SetText("Volume");
 	soundText->SetMode(HGETEXT_LEFT);
 
-	HTEXTURE slider = LoadTex("Content/Materials/slider.png");
+	HTEXTURE slider = GameManager::Instance()->GetResourceManager()->GetTexture("Slider");
 	soundSlider = new Slider(this, VOLUME_SLIDER, VOLUME_SLIDER_X, VOLUME_SLIDER_Y, VOLUME_SLIDER_W, VOLUME_SLIDER_H, slider,0,0,
 		ScrXToVirt(GetTextureSize(slider).x), ScrYToVirt(GetTextureSize(slider).y));
 	soundSlider->SetMode(0,100,HGESLIDER_SLIDER);
