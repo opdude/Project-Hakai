@@ -1,3 +1,12 @@
+//
+//	Panel.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _PANEL_H
 #define _PANEL_H
 

@@ -1,3 +1,12 @@
+//
+//	Parser.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _PARSER_H
 #define _PARSER_H
 

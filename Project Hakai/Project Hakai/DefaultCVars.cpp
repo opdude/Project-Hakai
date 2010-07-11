@@ -1,3 +1,12 @@
+//
+//	DefaultCVars.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "DefaultCVars.h"
 #include "Console.h"
 

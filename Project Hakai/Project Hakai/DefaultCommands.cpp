@@ -1,3 +1,12 @@
+//
+//	DefaultCommands.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include <vector>
 
 #include "DefaultCommands.h"

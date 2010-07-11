@@ -1,3 +1,12 @@
+//
+//	SettingsManager.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "SettingsManager.h"
 #include <exception>
 #include <iostream>

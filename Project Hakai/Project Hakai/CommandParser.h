@@ -1,3 +1,12 @@
+//
+//	CommandParser.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _COMMANDPARSER_H
 #define _COMMANDPARSER_H
 

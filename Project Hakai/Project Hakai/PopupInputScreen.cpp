@@ -1,3 +1,12 @@
+//
+//	PopupInputScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "PopupInputScreen.h"
 #include "Button.h"
 #include "HelperFunctions.h"

@@ -1,3 +1,12 @@
+//
+//	MultiPlayerMenuScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _MULTIPLAYERMENUSCREEN_H
 #define _MULTIPLAYERMENUSCREEN_H
 

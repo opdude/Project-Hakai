@@ -1,3 +1,12 @@
+//
+//	HelperFunctions.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "HelperFunctions.h"
 #include "GameManager.h"
 #include "GameScreen.h"

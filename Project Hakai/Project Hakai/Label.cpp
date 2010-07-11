@@ -1,3 +1,12 @@
+//
+//	Label.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "Label.h"
 #include <hgecolor.h>
 #include "GameScreen.h"

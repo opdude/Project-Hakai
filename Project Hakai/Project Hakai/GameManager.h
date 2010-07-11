@@ -1,3 +1,12 @@
+//
+//	GameManager.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+
 #ifndef _GAMEMANAGER_H
 #define _GAMEMANAGER_H
 

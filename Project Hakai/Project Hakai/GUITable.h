@@ -1,3 +1,12 @@
+//
+//	GUITable.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _TABLE_H
 #define _TABLE_H
 

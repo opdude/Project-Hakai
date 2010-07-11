@@ -1,3 +1,12 @@
+//
+//	LobbyMenuScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _LOBBYMENUSCREEN_H
 #define _LOBBYMENUSCREEN_H
 

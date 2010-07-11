@@ -1,3 +1,13 @@
+//
+//	GameManager.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
+
 
 #include "GameManager.h"
 #include "SettingsManager.h"

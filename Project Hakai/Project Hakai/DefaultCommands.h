@@ -1,3 +1,12 @@
+//
+//	DefaultCommands.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _DEFAULTCOMMANDS_H
 #define _DEFAULTCOMMANDS_H
 

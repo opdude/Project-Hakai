@@ -1,3 +1,12 @@
+//
+//	ChatBox.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "ChatBox.h"
 #include "GameScreen.h"
 #include "ScreenManager.h"

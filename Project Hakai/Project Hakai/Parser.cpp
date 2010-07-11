@@ -1,3 +1,12 @@
+//
+//	Parser.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "Parser.h"
 
 int Parser::ToInt(string str)

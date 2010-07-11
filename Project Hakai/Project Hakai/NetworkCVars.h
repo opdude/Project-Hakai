@@ -1,3 +1,12 @@
+//
+//	NetworkCVars.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _NETWORKCVARS_H
 #define _NETWORKCVARS_H
 

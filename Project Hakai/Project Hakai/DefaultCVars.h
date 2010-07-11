@@ -1,3 +1,12 @@
+//
+//	DefaultCVars.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _DEFAULTCVARS_H
 #define _DEFAULTCVARS_H
 

@@ -1,3 +1,12 @@
+//
+//	ServerSearchScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _SERVERSEARCHSCREEN_H
 #define _SERVERSEARCHSCREEN_H
 

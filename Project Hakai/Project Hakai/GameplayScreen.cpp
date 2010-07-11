@@ -1,3 +1,12 @@
+//
+//	GameplayScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "GameplayScreen.h"
 #include "GameManager.h"
 

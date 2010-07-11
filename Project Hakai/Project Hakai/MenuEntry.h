@@ -1,3 +1,12 @@
+//
+//	MenuEntry.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _MENUENTRY_H
 #define _MENUENTRY_H
 

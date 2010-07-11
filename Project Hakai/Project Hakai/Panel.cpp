@@ -1,3 +1,12 @@
+//
+//	Panel.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "Panel.h"
 #include "HelperFunctions.h"
 #include "MenuScreen.h"

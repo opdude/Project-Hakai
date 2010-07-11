@@ -1,3 +1,12 @@
+//
+//	Button.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "Button.h"
 #include <hgefont.h>
 #include "GameScreen.h"

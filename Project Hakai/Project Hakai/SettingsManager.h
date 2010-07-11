@@ -1,3 +1,12 @@
+//
+//	SettingsManager.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _SETTINGSMANAGER_H
 #define _SETTINGSMANAGER_H
 

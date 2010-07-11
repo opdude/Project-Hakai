@@ -1,3 +1,12 @@
+//
+//	CVarInitialise.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _CVARINITIALISE_H
 #define _CVARINITIALISE_H
 

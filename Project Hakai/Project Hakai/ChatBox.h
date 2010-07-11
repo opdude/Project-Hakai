@@ -1,3 +1,12 @@
+//
+//	ChatBox.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _CHATBOX_H
 #define _CHATBOX_H
 

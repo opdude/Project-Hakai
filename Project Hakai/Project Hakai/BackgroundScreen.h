@@ -1,3 +1,12 @@
+//
+//	BackgroundScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _BACKGROUNDSCREEN_H
 #define _BACKGROUNDSCREEN_H
 

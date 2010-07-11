@@ -1,3 +1,12 @@
+//
+//	Slider.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "Slider.h"
 #include "GameScreen.h"
 #include "HelperFunctions.h"

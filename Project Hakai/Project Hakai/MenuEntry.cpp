@@ -1,3 +1,12 @@
+//
+//	MenuEntry.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "MenuEntry.h"
 #include "GameScreen.h"
 #include "ScreenManager.h"

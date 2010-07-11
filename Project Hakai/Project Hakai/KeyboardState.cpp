@@ -1,3 +1,12 @@
+//
+//	KeyboardState.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "KeyboardState.h"
 
 KeyboardState::KeyboardState()

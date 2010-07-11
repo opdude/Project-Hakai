@@ -1,3 +1,12 @@
+//
+//	PopupInputScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _POPUPINPUTSCREEN_H
 #define  _POPUPINPUTSCREEN_H
 

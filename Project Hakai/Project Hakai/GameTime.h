@@ -1,3 +1,12 @@
+//
+//	GameTime.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _GAMETIME_H
 #define _GAMETIME_H
 

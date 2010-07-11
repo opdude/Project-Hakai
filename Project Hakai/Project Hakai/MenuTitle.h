@@ -1,3 +1,12 @@
+//
+//	MenuTitle.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _MENUTITLE_H
 #define _MENUTITLE_H
 

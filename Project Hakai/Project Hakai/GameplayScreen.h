@@ -1,3 +1,12 @@
+//
+//	GameplayScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _GAMEPLAYSCREEN_H
 #define _GAMEPLAYSCREEN_H
 

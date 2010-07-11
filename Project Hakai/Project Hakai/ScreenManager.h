@@ -1,3 +1,12 @@
+//
+//	ScreenManager.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _SCREENMANAGER_H
 #define _SCREENMANAGER_H
 

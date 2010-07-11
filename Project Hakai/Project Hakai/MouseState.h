@@ -1,3 +1,12 @@
+//
+//	MouseState.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _MOUSESTATE_H
 #define _MOUSESTATE_H
 

@@ -1,3 +1,12 @@
+//
+//	KeyboardInputBox.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "KeyboardInputBox.h"
 #include "GameScreen.h"
 #include "GameTime.h"

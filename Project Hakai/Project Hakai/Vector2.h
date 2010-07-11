@@ -1,3 +1,12 @@
+//
+//	Vector2.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef VECTOR2_HPP
 #define VECTOR2_HPP
 

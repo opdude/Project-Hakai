@@ -1,3 +1,12 @@
+//
+//	Slider.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _SLIDER_H
 #define _SLIDER_H
 

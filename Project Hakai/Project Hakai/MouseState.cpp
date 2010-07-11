@@ -1,3 +1,12 @@
+//
+//	MouseState.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "MouseState.h"
 #include "GameManager.h"
 

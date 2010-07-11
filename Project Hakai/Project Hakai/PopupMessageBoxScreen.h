@@ -1,3 +1,12 @@
+//
+//	PopupMessageBoxScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _POPUPMESSAGEBOXSCREEN_H
 #define _POPUPMESSAGEBOXSCREEN_H
 

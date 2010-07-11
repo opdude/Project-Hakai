@@ -1,3 +1,12 @@
+//
+//	InputState.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "InputState.h"
 
 InputState::InputState()

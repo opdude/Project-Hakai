@@ -1,3 +1,12 @@
+//
+//	Command.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _COMMAND_H
 #define _COMMAND_H
 

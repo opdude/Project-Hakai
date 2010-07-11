@@ -1,3 +1,12 @@
+//
+//	InputState.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _INPUTSTATE_H
 #define _INPUTSTATE_H
 

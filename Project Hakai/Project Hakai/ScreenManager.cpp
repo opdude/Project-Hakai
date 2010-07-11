@@ -1,3 +1,12 @@
+//
+//	ScreenManager.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "ScreenManager.h"
 #include "FontLoader.h"
 #include "GameScreen.h"

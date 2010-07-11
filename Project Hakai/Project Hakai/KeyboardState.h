@@ -1,3 +1,12 @@
+//
+//	KeyboardState.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _KEYBOARDSTATE_H
 #define _KEYBOARDSTATE_H
 

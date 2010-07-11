@@ -1,3 +1,12 @@
+//
+//	ServerSearchScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "ServerSearchScreen.h"
 #include <MessageIdentifiers.h>
 #include <RakNetTime.h>

@@ -1,3 +1,12 @@
+//
+//	LobbyMenuScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "LobbyMenuScreen.h"
 #include <vector>
 #include "Button.h"

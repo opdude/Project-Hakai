@@ -1,3 +1,12 @@
+//
+//	MenuScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "MenuScreen.h"
 #include "HelperFunctions.h"
 #include "GameManager.h"

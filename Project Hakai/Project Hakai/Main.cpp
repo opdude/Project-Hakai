@@ -1,14 +1,13 @@
-/*!
- * <File comment goes here!!>
- * 
- * Copyright (c) 200x by <your name/ organization here>
- */
 //
-// Main.cpp
-// Project Hakai
+//	Main.cpp
+//	Project Hakai
 //
-// Created by Daniel Hobley.
+// Created by Daniel Hobley
 //
+// Purpose: 
+//
+//
+
 
 #include <hge.h>
 #include "GameManager.h"

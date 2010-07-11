@@ -1,3 +1,12 @@
+//
+//	Label.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _LABEL_H
 #define _LABEL_H
 

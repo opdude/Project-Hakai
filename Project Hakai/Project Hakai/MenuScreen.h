@@ -1,3 +1,12 @@
+//
+//	MenuScreen.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _MENUSCREEN_H
 #define _MENUSCREEN_H
 

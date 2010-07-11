@@ -1,3 +1,12 @@
+//
+//	HelperFunctions.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _HELPERFUNCTIONS_H
 #define _HELPERFUNCTIONS_H
 

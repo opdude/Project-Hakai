@@ -1,3 +1,12 @@
+//
+//	MainMenuScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "MainMenuScreen.h"
 #include "Console.h"
 #include "CVar.h"

@@ -1,3 +1,12 @@
+//
+//	CVar.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "CVar.h"
 #include "Parser.h"
 

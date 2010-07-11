@@ -1,3 +1,12 @@
+//
+//	CommandParser.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "CommandParser.h"
 
 CommandParser::CommandParser(string str)

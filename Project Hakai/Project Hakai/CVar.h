@@ -1,3 +1,12 @@
+//
+//	CVar.h
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #ifndef _CVAR_H
 #define _CVAR_H
 

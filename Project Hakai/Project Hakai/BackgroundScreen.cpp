@@ -1,3 +1,12 @@
+//
+//	BackgroundScreen.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "BackgroundScreen.h"
 #include "GameManager.h"
 #include "HelperFunctions.h"

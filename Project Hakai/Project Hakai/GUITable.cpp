@@ -1,3 +1,12 @@
+//
+//	GUITable.cpp
+//	Project Hakai
+//
+// Created by Daniel Hobley
+//
+// Purpose: 
+//
+//
 #include "GUITable.h"
 #include "GameScreen.h"
 #include "GameTime.h"
